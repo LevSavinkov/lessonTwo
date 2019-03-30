@@ -4,7 +4,7 @@ var numberRandom = function (operandOne, operandTwo) {
     return numberRnd;
 }
 
-document.write('<h1>Задание 3 </h1><br>')
+document.write('<h1>Задание 3 </h1><br>')  
 
 var numberOne = numberRandom(100, 50);
 var numberTwo = numberRandom(100, 50);
@@ -24,6 +24,64 @@ if (numberOne > 0 && numberTwo > 0) {
     document.write('сумма чисел равна ' + (numberOne + numberTwo));
     console.log('сумма чисел равна ' + (numberOne + numberTwo));
 };
+
+
+document.write('<h1>Задание 4 </h1><br>');
+var a = parseInt(prompt ('Введите число a от 0 до 15: (нужно для задания 4)'));
+
+switch(a) {
+    case 0:  
+    document.write(a++);
+
+    case 1:  
+    document.write(a++);
+
+    case 2:  
+    document.write(a++);
+
+    case 3:  
+    document.write(a++);
+
+    case 4:  
+    document.write(a++);
+
+    case 5:  
+    document.write(a++);
+
+    case 6:  
+    document.write(a++);
+
+    case 7:  
+    document.write(a++);
+
+    case 8:  
+    document.write(a++);
+
+    case 9:  
+    document.write(a++);
+
+    case 10:  
+    document.write(a++);
+
+    case 11:  
+    document.write(a++);
+
+    case 12:  
+    document.write(a++);
+
+    case 13:  
+    document.write(a++);
+
+    case 14:  
+    document.write(a++);      
+
+    case 15:  
+    document.write(a++);
+    break;  
+
+    default:
+      break;
+}
 
 document.write('<h1>Задание 5 </h1><br>');
 
